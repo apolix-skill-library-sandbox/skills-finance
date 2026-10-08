@@ -1,0 +1,5 @@
+# Jede Änderung braucht Freigabe von den Management-Leads
+*           @apolix-skill-library-sandbox/finance-leads
+
+# Die Regeln selbst dürfen nur Leads und Admins ändern
+/.github/   @apolix-skill-library-sandbox/management-leads @apolix-skill-library-sandbox/admin
