@@ -1,0 +1,13 @@
+# Emails this repo's leads when a pull request opens. Logic: apolix-skill-library-sandbox/skills-website
+name: Notify leads
+
+on:
+  pull_request_target:
+    types: [opened, reopened, ready_for_review]
+
+permissions: {}
+
+jobs:
+  notify:
+    uses: apolix-skill-library-sandbox/skills-website/.github/workflows/notify-leads.yml@main
+    secrets: inherit
